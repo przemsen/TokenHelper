@@ -6,4 +6,4 @@
   - This way we can very quickly extract a token by copying a request from a browser as CURL command in the Developer Tools 
   - If extraction succeeds, there is no message to make the workflow as easy as possible. If it fails, there is a message
   - Written in .NET Framework 4.8, because this way it guarantees no extra dependencies
-  - The compiled EXE file can be downloaded from the Releases page
+  - The compiled EXE file can be downloaded from the Releases section on the right-hand side 
