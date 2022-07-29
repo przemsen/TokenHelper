@@ -8,7 +8,7 @@ namespace TokenHelper
         public string Input { get; set; }
         public string Output { get; set; }
 
-        private static readonly Regex tokenRegex = new Regex(@".*Bearer ([a-zA-Z0-9_\.\-_]+)""", RegexOptions.Compiled);
+        private static readonly Regex tokenRegex = new Regex(@".*Bearer ([a-zA-Z0-9_\.\-_]+)[""']", RegexOptions.Compiled);
 
         public void Extract()
         {

@@ -40,7 +40,7 @@
             // 
             this.notifyIcon2.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon2.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon2.Icon")));
-            this.notifyIcon2.Text = "JWT Bearer Token Helper utility 1.0";
+            this.notifyIcon2.Text = "JWT Bearer Token Helper utility 1.1";
             this.notifyIcon2.Visible = true;
             // 
             // contextMenuStrip1
